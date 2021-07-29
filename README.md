@@ -18,5 +18,7 @@ Files less than 100MB are regarded as small files where as files greater than 10
 
 
 SO for small file run following command on your terminal:
-
 `wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O FILENAME`
+
+For lagre file run the following command with necessary changes in FILEID and FILENAME:
+`wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=FILEID" -O FILENAME && rm -rf /tmp/cookies.txt`
