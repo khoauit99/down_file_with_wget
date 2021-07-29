@@ -11,4 +11,4 @@
 5. Make it On- Public on the web.
 6. Click Save button.
 7. Copy the link for sharing…like…https://drive.google.com/file/d/1UibyVC_C2hoT_XEw15gPEwPW4yFyJFeOEA/view?usp=sharing
-8. Extrac FILEID part like….from above….1UibyVC_C2hoT_XEw15gPEwPW4yFyJFeOEA
+8. Extrac FILEID part like….from above….<strong>1UibyVC_C2hoT_XEw15gPEwPW4yFyJFeOEA</strong>
