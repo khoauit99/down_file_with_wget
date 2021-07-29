@@ -17,8 +17,8 @@ Files less than 100MB are regarded as small files where as files greater than 10
 8. Extrac FILEID part like….from above….<strong>1UibyVC_C2hoT_XEw15gPEwPW4yFyJFeOEA</strong>
 
 
-SO for small file run following command on your terminal:
+SO for small file run following command on your terminal:<br/>
 `wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O FILENAME`
 
-For lagre file run the following command with necessary changes in FILEID and FILENAME:
+For lagre file run the following command with necessary changes in FILEID and FILENAME:<br/>
 `wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=FILEID" -O FILENAME && rm -rf /tmp/cookies.txt`
