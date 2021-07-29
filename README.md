@@ -15,3 +15,8 @@ Files less than 100MB are regarded as small files where as files greater than 10
 6. Click Save button.
 7. Copy the link for sharing…like…https://drive.google.com/file/d/1UibyVC_C2hoT_XEw15gPEwPW4yFyJFeOEA/view?usp=sharing
 8. Extrac FILEID part like….from above….<strong>1UibyVC_C2hoT_XEw15gPEwPW4yFyJFeOEA</strong>
+
+
+SO for small file run following command on your terminal:
+
+`wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O FILENAME`
