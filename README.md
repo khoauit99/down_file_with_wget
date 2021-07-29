@@ -3,6 +3,9 @@
 ### how to down file googledrive with wget??
 #### Follow this instruction to do this 
 
+Files can be downloaded from google drive using wget. Before that you need to know that files are small and large sized in google drive.\
+
+Files less than 100MB are regarded as small files where as files greater than 100MB are regarded as large files.
 
 1. Select a file that is need to be downloaded and do right click.
 2. Click Share. A dialog box will appear.
